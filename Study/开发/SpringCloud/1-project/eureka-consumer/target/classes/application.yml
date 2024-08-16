@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: eureka-consumer
+eureka:
+  instance:
+    prefer-ip-address: false
+    appname: eureka-consumer
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+user:
+  movieurl: http://eureka-provider
