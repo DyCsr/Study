@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1475e122-211b-451c-8985-511768381563" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-consumer/src/main/java/com/example/eurekaconsumer/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-consumer/src/main/java/com/example/eurekaconsumer/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-provider/src/main/java/com/example/eurekaprovider/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-provider/src/main/java/com/example/eurekaprovider/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eureka-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="1475e122-211b-451c-8985-511768381563" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
   <component name="ProjectId" id="2kk0uCWdxrKaUTRpR8BGTElSWuB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eureka-consumer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eureka-provider" />
   </component>
   <component name="RunManager">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -73,6 +59,8 @@
       <updated>1723812493688</updated>
       <workItem from="1723812494871" duration="1262000" />
       <workItem from="1723815448272" duration="2029000" />
+      <workItem from="1723858908324" duration="1588000" />
+      <workItem from="1723948613528" duration="745000" />
     </task>
     <servers />
   </component>

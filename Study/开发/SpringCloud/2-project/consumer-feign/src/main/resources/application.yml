@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: consumer-feign
+feign:
+  httpclient:
+    enabled: true
+eureka:
+  instance:
+    appname: consumer-feign
+    prefer-ip-address: false
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    enabled: true

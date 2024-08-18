@@ -3,9 +3,7 @@ package com.example.eurekaprovider.controller;
 import com.example.eurekaprovider.entity.Movie;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Random;
 
@@ -26,4 +24,9 @@ public class MovieController {
         movie.setAuthor("姜文");
         return movie;
     }
+
+    @PostMapping("/movie/post")
+    public Movie postMovie(@RequestBody Movie movie){
+        return movie;
+    };
 }
