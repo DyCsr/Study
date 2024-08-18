@@ -1,5 +1,5 @@
 server:
-  port: 6787
+  port: 6789
 spring:
   application:
     name: eureka-provider

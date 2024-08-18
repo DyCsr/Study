@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+spring:
+  application:
+    name: consumer-zuul
+  logging:
+    file: eureka-zuul.log
+    level:
+
+zuul:
+  ignored-services:
+    - '*'
+  routes:
+    eureka-movie: # 此名称可以任意
+      path: /movie/**
+      serviceId: eureka-provider
+
+
+root: INFO
