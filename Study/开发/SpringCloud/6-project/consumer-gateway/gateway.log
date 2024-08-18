@@ -1,0 +1,182 @@
+2024-08-18T19:02:52.205+08:00  INFO 40824 --- [main] c.e.c.ConsumerGatewayApplication         : Starting ConsumerGatewayApplication using Java 17.0.6 with PID 40824 (F:\学习笔记仓库\Study\开发\SpringCloud\6-project\consumer-gateway\target\classes started by jbymy in F:\学习笔记仓库\Study\开发\SpringCloud\6-project\consumer-gateway)
+2024-08-18T19:02:52.208+08:00  INFO 40824 --- [main] c.e.c.ConsumerGatewayApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-18T19:02:52.694+08:00  INFO 40824 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a97854f4-3778-3ad5-835b-6afc1ec4aeb3
+2024-08-18T19:02:52.726+08:00  INFO 40824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-18T19:02:52.728+08:00  INFO 40824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-18T19:02:52.729+08:00  INFO 40824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-18T19:02:53.994+08:00  INFO 40824 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-18T19:02:54.180+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-08-18T19:02:54.181+08:00  INFO 40824 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-08-18T19:02:55.388+08:00  INFO 40824 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-18T19:02:56.518+08:00  INFO 40824 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-18T19:02:56.542+08:00  INFO 40824 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-08-18T19:02:56.652+08:00  INFO 40824 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-18T19:02:56.666+08:00  WARN 40824 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-18T19:02:56.700+08:00  INFO 40824 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-18T19:02:56.714+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-18T19:02:56.718+08:00  INFO 40824 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-18T19:02:56.728+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-18T19:02:56.731+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-18T19:02:56.731+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-18T19:02:56.731+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-18T19:02:56.731+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-18T19:02:56.731+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-18T19:02:56.731+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-18T19:02:56.938+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-18T19:02:56.941+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-18T19:02:56.942+08:00  INFO 40824 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-18T19:02:56.945+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1723978976945 with initial instances count: 3
+2024-08-18T19:02:56.947+08:00  INFO 40824 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CONSUMER-GATEWAY with eureka with status UP
+2024-08-18T19:02:56.947+08:00  INFO 40824 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723978976947, current=UP, previous=STARTING]
+2024-08-18T19:02:56.948+08:00  INFO 40824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONSUMER-GATEWAY/localhost:consumer-gateway:8080: registering service...
+2024-08-18T19:02:56.984+08:00  INFO 40824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONSUMER-GATEWAY/localhost:consumer-gateway:8080 - registration status: 204
+2024-08-18T19:02:57.100+08:00  INFO 40824 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2024-08-18T19:02:57.101+08:00  INFO 40824 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2024-08-18T19:02:58.246+08:00  INFO 40824 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-18T19:02:59.370+08:00  INFO 40824 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-18T19:02:59.385+08:00  INFO 40824 --- [main] c.e.c.ConsumerGatewayApplication         : Started ConsumerGatewayApplication in 8.557 seconds (process running for 9.198)
+2024-08-18T19:07:56.744+08:00  INFO 40824 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-18T19:08:32.662+08:00  WARN 40824 --- [reactor-http-nio-14] o.s.w.r.resource.ResourceWebHandler      : "Path contains "../" after call to StringUtils#cleanPath: [../google.com]"
+2024-08-18T19:08:33.147+08:00  WARN 40824 --- [reactor-http-nio-9] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [javax.faces.resource.../WEB-INF/web.xml.jsf]"
+2024-08-18T19:08:33.202+08:00  WARN 40824 --- [reactor-http-nio-12] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [META-INF]"
+2024-08-18T19:08:33.202+08:00  WARN 40824 --- [reactor-http-nio-3] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [META-INF/context.xml]"
+2024-08-18T19:08:33.318+08:00  WARN 40824 --- [reactor-http-nio-19] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [servlet/Oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml]"
+2024-08-18T19:08:33.318+08:00  WARN 40824 --- [reactor-http-nio-12] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [servlet/oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml]"
+2024-08-18T19:08:33.335+08:00  WARN 40824 --- [reactor-http-nio-13] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml]"
+2024-08-18T19:08:33.415+08:00  WARN 40824 --- [reactor-http-nio-14] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [WEB-INF./web.xml]"
+2024-08-18T19:08:33.416+08:00  WARN 40824 --- [reactor-http-nio-8] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [WEB-INF]"
+2024-08-18T19:08:33.417+08:00  WARN 40824 --- [reactor-http-nio-13] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [WEB-INF/config.xml]"
+2024-08-18T19:08:33.417+08:00  WARN 40824 --- [reactor-http-nio-7] o.s.w.r.resource.ResourceWebHandler      : "Path with "WEB-INF" or "META-INF": [WEB-INF/web.xml]"
+2024-08-18T19:08:39.907+08:00  WARN 40824 --- [reactor-http-nio-19] r.n.http.server.HttpServerOperations     : [bf9374a1, L:/127.0.0.1:8080 - R:/127.0.0.1:47246] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 29: http://localhost:8080/product[list), version: HTTP/1.1)
+GET /product[list HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:08:39.912+08:00  WARN 40824 --- [reactor-http-nio-7] r.n.http.server.HttpServerOperations     : [2bbc0231, L:/127.0.0.1:8080 - R:/127.0.0.1:47234] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 25: http://localhost:8080/bbs[page), version: HTTP/1.1)
+GET /bbs[page HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:08:39.973+08:00  WARN 40824 --- [reactor-http-nio-12] r.n.http.server.HttpServerOperations     : [52a89d23, L:/127.0.0.1:8080 - R:/127.0.0.1:47242] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 26: http://localhost:8080/shop[page), version: HTTP/1.1)
+GET /shop[page HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:08:40.001+08:00  WARN 40824 --- [reactor-http-nio-19] r.n.http.server.HttpServerOperations     : [4bd1df7b, L:/127.0.0.1:8080 - R:/127.0.0.1:47227] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 26: http://localhost:8080/shop[list), version: HTTP/1.1)
+GET /shop[list HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:08:40.004+08:00  WARN 40824 --- [reactor-http-nio-14] r.n.http.server.HttpServerOperations     : [2fbb2507, L:/127.0.0.1:8080 - R:/127.0.0.1:47243] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 29: http://localhost:8080/article[page), version: HTTP/1.1)
+GET /article[page HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:08:40.077+08:00  WARN 40824 --- [reactor-http-nio-10] r.n.http.server.HttpServerOperations     : [e8f1bf28, L:/127.0.0.1:8080 - R:/127.0.0.1:47215] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 25: http://localhost:8080/bbs[list), version: HTTP/1.1)
+GET /bbs[list HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:08:40.095+08:00  WARN 40824 --- [reactor-http-nio-12] r.n.http.server.HttpServerOperations     : [79d9c0ec, L:/127.0.0.1:8080 - R:/127.0.0.1:47221] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 29: http://localhost:8080/article[list), version: HTTP/1.1)
+GET /article[list HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:08:40.113+08:00  WARN 40824 --- [reactor-http-nio-3] r.n.http.server.HttpServerOperations     : [a34b48d2, L:/127.0.0.1:8080 - R:/127.0.0.1:47248] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 29: http://localhost:8080/product[page), version: HTTP/1.1)
+GET /product[page HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-16] reactor.netty.channel.FluxReceive        : [91112c29, L:/127.0.0.1:8080 - R:/127.0.0.1:47224] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-7] reactor.netty.channel.FluxReceive        : [adb12f05, L:/127.0.0.1:8080 - R:/127.0.0.1:47219] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-13] reactor.netty.channel.FluxReceive        : [fe9fd075, L:/127.0.0.1:8080 - R:/127.0.0.1:47220] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-5] reactor.netty.channel.FluxReceive        : [e617b8fc, L:/127.0.0.1:8080 - R:/127.0.0.1:47214] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-4] reactor.netty.channel.FluxReceive        : [ea9d4055, L:/127.0.0.1:8080 - R:/127.0.0.1:47231] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-2] reactor.netty.channel.FluxReceive        : [1727fbd3, L:/127.0.0.1:8080 - R:/127.0.0.1:47230] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-3] reactor.netty.channel.FluxReceive        : [6ff902db, L:/127.0.0.1:8080 - R:/127.0.0.1:47212] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-17] reactor.netty.channel.FluxReceive        : [486255c2, L:/127.0.0.1:8080 - R:/127.0.0.1:47226] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-11] reactor.netty.channel.FluxReceive        : [e7036669, L:/127.0.0.1:8080 - R:/127.0.0.1:47216] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-9] reactor.netty.channel.FluxReceive        : [c82f024a, L:/127.0.0.1:8080 - R:/127.0.0.1:47213] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-5] reactor.netty.channel.FluxReceive        : [c034dcc6, L:/127.0.0.1:8080 - R:/127.0.0.1:47232] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-18] reactor.netty.channel.FluxReceive        : [3f02e78a, L:/127.0.0.1:8080 - R:/127.0.0.1:47225] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-8] reactor.netty.channel.FluxReceive        : [2664a252, L:/127.0.0.1:8080 - R:/127.0.0.1:47218] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-13] reactor.netty.channel.FluxReceive        : [367173ad, L:/127.0.0.1:8080 - R:/127.0.0.1:47241] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-15] reactor.netty.channel.FluxReceive        : [59da9953, L:/127.0.0.1:8080 - R:/127.0.0.1:47222] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-2] reactor.netty.channel.FluxReceive        : [77911d2b, L:/127.0.0.1:8080 - R:/127.0.0.1:47250] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-4] reactor.netty.channel.FluxReceive        : [f0065dca, L:/127.0.0.1:8080 - R:/127.0.0.1:47251] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.288+08:00  WARN 40824 --- [reactor-http-nio-1] reactor.netty.channel.FluxReceive        : [6c56c88b, L:/127.0.0.1:8080 - R:/127.0.0.1:47229] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-15] reactor.netty.channel.FluxReceive        : [65bb5d61, L:/127.0.0.1:8080 - R:/127.0.0.1:47238] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-6] reactor.netty.channel.FluxReceive        : [c75152ef, L:/127.0.0.1:8080 - R:/127.0.0.1:47217] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-14] reactor.netty.channel.FluxReceive        : [c433cbbd, L:/127.0.0.1:8080 - R:/127.0.0.1:47223] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-20] reactor.netty.channel.FluxReceive        : [01e2b1e5-733, L:/127.0.0.1:8080 - R:/127.0.0.1:47228] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-10] reactor.netty.channel.FluxReceive        : [ab35aba7, L:/127.0.0.1:8080 - R:/127.0.0.1:47239] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.290+08:00  WARN 40824 --- [reactor-http-nio-1] reactor.netty.channel.FluxReceive        : [ad4e1756, L:/127.0.0.1:8080 - R:/127.0.0.1:47249] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.290+08:00  WARN 40824 --- [reactor-http-nio-20] reactor.netty.channel.FluxReceive        : [004216da, L:/127.0.0.1:8080 - R:/127.0.0.1:47247] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-16] reactor.netty.channel.FluxReceive        : [ce381ed2, L:/127.0.0.1:8080 - R:/127.0.0.1:47237] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-17] reactor.netty.channel.FluxReceive        : [e31b1151, L:/127.0.0.1:8080 - R:/127.0.0.1:47244] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-11] reactor.netty.channel.FluxReceive        : [8f881c58, L:/127.0.0.1:8080 - R:/127.0.0.1:47240] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-9] reactor.netty.channel.FluxReceive        : [3e36285d, L:/127.0.0.1:8080 - R:/127.0.0.1:47236] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-8] reactor.netty.channel.FluxReceive        : [d034ef80, L:/127.0.0.1:8080 - R:/127.0.0.1:47235] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.289+08:00  WARN 40824 --- [reactor-http-nio-18] reactor.netty.channel.FluxReceive        : [3542b932, L:/127.0.0.1:8080 - R:/127.0.0.1:47245] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:08:40.290+08:00  WARN 40824 --- [reactor-http-nio-6] reactor.netty.channel.FluxReceive        : [03855879, L:/127.0.0.1:8080 - R:/127.0.0.1:47233] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2024-08-18T19:09:28.432+08:00  WARN 40824 --- [reactor-http-nio-12] r.n.http.server.HttpServerOperations     : [f994f3f8, L:/127.0.0.1:8080 - R:/127.0.0.1:47321] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 32: http://localhost:8080/aa/product[list), version: HTTP/1.1)
+GET /aa/product[list HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:09:28.464+08:00  WARN 40824 --- [reactor-http-nio-9] r.n.http.server.HttpServerOperations     : [c0e81556, L:/127.0.0.1:8080 - R:/127.0.0.1:47296] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 28: http://localhost:8080/aa/bbs[page), version: HTTP/1.1)
+GET /aa/bbs[page HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:09:28.672+08:00  WARN 40824 --- [reactor-http-nio-20] r.n.http.server.HttpServerOperations     : [76816e7c, L:/127.0.0.1:8080 - R:/127.0.0.1:47308] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 29: http://localhost:8080/aa/shop[page), version: HTTP/1.1)
+GET /aa/shop[page HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:09:28.771+08:00  WARN 40824 --- [reactor-http-nio-11] r.n.http.server.HttpServerOperations     : [90a8330f, L:/127.0.0.1:8080 - R:/127.0.0.1:47320] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 29: http://localhost:8080/aa/shop[list), version: HTTP/1.1)
+GET /aa/shop[list HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:09:28.774+08:00  WARN 40824 --- [reactor-http-nio-4] r.n.http.server.HttpServerOperations     : [9cc50aaa, L:/127.0.0.1:8080 - R:/127.0.0.1:47290] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 32: http://localhost:8080/aa/article[page), version: HTTP/1.1)
+GET /aa/article[page HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:09:28.958+08:00  WARN 40824 --- [reactor-http-nio-10] r.n.http.server.HttpServerOperations     : [6a966f73, L:/127.0.0.1:8080 - R:/127.0.0.1:47319] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 28: http://localhost:8080/aa/bbs[list), version: HTTP/1.1)
+GET /aa/bbs[list HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:09:29.015+08:00  WARN 40824 --- [reactor-http-nio-17] r.n.http.server.HttpServerOperations     : [22362f54, L:/127.0.0.1:8080 - R:/127.0.0.1:47911] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 32: http://localhost:8080/aa/article[list), version: HTTP/1.1)
+GET /aa/article[list HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:09:29.055+08:00  WARN 40824 --- [reactor-http-nio-1] r.n.http.server.HttpServerOperations     : [14144c21, L:/127.0.0.1:8080 - R:/127.0.0.1:47288] Decoding failed: REQUEST(decodeResult: failure(java.net.URISyntaxException: Illegal character in path at index 32: http://localhost:8080/aa/product[page), version: HTTP/1.1)
+GET /aa/product[page HTTP/1.1
+Host: <filtered>
+User-Agent: <filtered>
+Accept-Encoding: <filtered>
+2024-08-18T19:12:56.750+08:00  INFO 40824 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-18T19:12:57.456+08:00  INFO 40824 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CONSUMER-GATEWAY with eureka with status DOWN
+2024-08-18T19:12:57.457+08:00  INFO 40824 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1723979577457, current=DOWN, previous=UP]
+2024-08-18T19:12:57.457+08:00  INFO 40824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONSUMER-GATEWAY/localhost:consumer-gateway:8080: registering service...
+2024-08-18T19:12:57.459+08:00  INFO 40824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONSUMER-GATEWAY/localhost:consumer-gateway:8080 - registration status: 204
+2024-08-18T19:12:59.541+08:00  INFO 40824 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-18T19:13:02.559+08:00  INFO 40824 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-18T19:13:02.565+08:00  INFO 40824 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONSUMER-GATEWAY/localhost:consumer-gateway:8080 - deregister  status: 200
+2024-08-18T19:13:02.569+08:00  INFO 40824 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

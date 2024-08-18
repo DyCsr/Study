@@ -1,0 +1,35 @@
+server:
+  port: 8080
+#配置本项目的ID
+spring:
+  application:
+    name: consumer-gateway
+  #配置gateway
+  cloud:
+    gateway:
+      enabled: true
+      routes:
+        - id: eureka-movie
+          # 如果输入一个固定的地址则为代理一个地址，
+          # 如果输入lb://spring.application.name则为通过loadbalance实现负载均衡
+          uri: #http://server1:8001
+            lb://eureka-provider
+          predicates:
+            - Path=/aa/**
+          filters:
+            # 在转发后用于删除/aa/这个前缀，
+            # 如：http://localhost:3002/aa/movie/1转发以后为：http://localhost:8002/movie/1
+            - StripPrefix=1
+#配置注册到服务器
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+logging:
+  level:
+    root: INFO
+    cn.mrchi: DEBUG
+  file:
+    name: gateway.log
