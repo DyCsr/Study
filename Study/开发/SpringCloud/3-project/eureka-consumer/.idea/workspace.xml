@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1475e122-211b-451c-8985-511768381563" name="Changes" comment="" />
+    <list default="true" id="2d98f653-b7b1-4796-b092-264b18e5ecef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
-  <component name="ProjectId" id="2kk0uCWdxrKaUTRpR8BGTElSWuB" />
+  <component name="ProjectId" id="2kk98MIyu0axw7I587s9fAaRmN4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,40 +34,38 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../3-project/eureka-consumer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
+    <configuration name="EurekaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.eurekaserver.*" />
+          <option name="PATTERN" value="com.example.eurekaconsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaconsumer.EurekaConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.EurekaConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1475e122-211b-451c-8985-511768381563" name="Changes" comment="" />
-      <created>1723812493688</created>
+      <changelist id="2d98f653-b7b1-4796-b092-264b18e5ecef" name="Changes" comment="" />
+      <created>1723816547935</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1723812493688</updated>
-      <workItem from="1723812494871" duration="1262000" />
-      <workItem from="1723815448272" duration="2029000" />
-      <workItem from="1723858908324" duration="1588000" />
-      <workItem from="1723948613528" duration="2821000" />
+      <updated>1723816547935</updated>
+      <workItem from="1723816549415" duration="2062000" />
+      <workItem from="1723950195918" duration="3497000" />
     </task>
     <servers />
   </component>

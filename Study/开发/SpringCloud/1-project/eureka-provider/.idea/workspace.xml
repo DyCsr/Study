@@ -42,12 +42,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2-project/consumer-feign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="EurekaProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EurekaProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="eureka-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaprovider.EurekaProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,6 +66,7 @@
       <workItem from="1723813768134" duration="3769000" />
       <workItem from="1723858893281" duration="2869000" />
       <workItem from="1723948635357" duration="778000" />
+      <workItem from="1723950143421" duration="2735000" />
     </task>
     <servers />
   </component>
