@@ -17,7 +17,8 @@ public class MovieController {
     }
 
     @GetMapping("/movie/{id}")
-    public Movie movieById(@PathVariable Long id) {
+    public Movie movieById(@PathVariable Long id) throws InterruptedException {
+        Thread.sleep(1000*3); // 休眠3秒
         Movie movie = new Movie();
         movie.setId(new Random().nextLong());
         movie.setName("端口:"+port);

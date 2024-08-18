@@ -1,0 +1,37 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: consumer-feign
+feign:
+  hystrix:
+    enabled: true
+
+eureka-provider:
+  ribbon:
+    ReadTimeout: 300000 #5分钟
+    ConnectTimeout: 300000
+
+eureka:
+  instance:
+    appname: consumer-feign
+    prefer-ip-address: false
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    enabled: true
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          hystrix.stream,info,health
+  endpoint:
+    health:
+      show-details: ALWAYS
